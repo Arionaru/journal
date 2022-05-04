@@ -6,3 +6,10 @@ spring:
     url: jdbc:postgresql://localhost:5430/journalDb
     username: postgres
     password: postgrespass
+  kafka:
+    bootstrap-servers: localhost:9092
+    topics:
+      journal-request: journal-request
+    consumer:
+      client-id: test.client.id
+      group-id: test.group.id

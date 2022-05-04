@@ -4,7 +4,6 @@ CREATE TABLE IF NOT EXISTS event (
     source_id TEXT NOT NULL,
     description jsonb,
     action TEXT NOT NULL,
-    username TEXT NOT NULL,
     status TEXT NOT NULL,
     result TEXT,
     event_time TIMESTAMP NOT NULL
