@@ -13,3 +13,5 @@ spring:
     consumer:
       client-id: test.client.id
       group-id: test.group.id
+    producer:
+      max-request-size: 10000000
